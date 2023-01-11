@@ -1,0 +1,48 @@
+
+nav#menu {
+  position: fixed;
+}
+h2 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  width: 130px;
+}
+h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+
+}
+div#conteudo {
+  position: absolute;
+  margin: 0px 10px 10px 310px;
+  color: #222222;
+  font-size: 15px;
+  background:rgba( 0,0,0,0.1);
+  border: 1px solid #222222;
+}
+div#conteudo p {
+  padding: 10px;
+  margin: -25px 10px 10px 10px;
+
+}
+.col-sm-6 {
+
+  margin: -1068px 10px 10px 540px;
+  border: 1px solid #222222;
+}
+.col-sm-1 {
+  border: 1px solid #222222;
+  width: 490px;
+  margin: 10px;
+}
+.btn-default {
+  background: rgb(60, 179, 113,0.5);
+  color: #f1f1f1;
+  font-size: 20px;
+  margin: 0px 10px 10px 10px;
+
+}
+.btn-default:hover {
+  background-color: #b82e24;
+}

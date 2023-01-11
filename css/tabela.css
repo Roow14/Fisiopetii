@@ -1,0 +1,18 @@
+nav#menu {
+  margin: 10px 10px 10px 1100px;
+}
+div#crianca {
+  margin: 10px 10px 10px -900px;
+}
+div#tabela {
+  position: absolute;
+  left: 10px;
+}
+div#tabela td{
+ border: 1px solid #000000;
+
+}
+
+.s2 {
+  background: antiquewhite;
+}

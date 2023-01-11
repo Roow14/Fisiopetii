@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Agenda</title>
+  <link rel="stylesheet" type="text/css" href="css/CriarAgenda.css">
+
+
+
+  <style type="text/css">
+
+    body{
+      background-image: url("img/3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+  <a href="principal.html">
+
+    <nav id="menu">
+      <img src="img/logof.png" width="50%">
+  </a>
+  <nav id="home">
+
+
+
+
+    <ul>
+      <div id="tabela">
+        <h3>Agenda</h3>
+        <div id="agenda">
+          <form action="aplicar-filtro-data.php" method="post"
+                class="form-inline" style="position: relative; float: left; margin-right: 15px;">
+            <label><font size="5px" >Data</label>
+            <input type="date" class="form-control" name="DataAgenda" value="2023-01-09">
+
+          </form>
+
+          <label><font size="5px">Horário:</label>
+          <select class="form-control" name="id_hora" value="3" required>
+            <option value="3">--:--</option>
+            <option value="1">08:00</option><option value="3">09:00</option><option value="5">10:00</option>
+            <option value="7">11:00</option><option value="9">Almoço</option><option value="10">13:00</option>
+            <option value="12">14:00</option><option value="14">15:00</option><option value="16">16:00</option>
+            <option value="19">Encerrado</option>					</select>
+        </div>
+
+
+
+        <form action="aplicar-filtro-categoria-profissional.php" method="post" class="form-inlinee" style="position: relative; float: left: 10px;">
+          <label><font size="6px" >Paciente</label>
+          <select class="form-control" name="txtPaciente">
+            <option value="001"> Andreza Bianca Moreira dos Santos</option>
+            <option value="920">Daniela de Paula Barros</option>
+            <option value="920">Eliane Aparecida Sande Vieira</option>
+            <option value="920">Elisângela Aparecida Santos de Oliveira </option>
+            <option value="920">Flavia Alves Duarte Alencar</option>
+            <option value="920">Gabriela Santos Pereira</option>
+            <option value="920">Júlia Gabriela dos Santos</option>
+            <option value="920">Midiã Marques Borges Santos</option>
+            <option value="920">Neiva Menezes</option>
+            <option value="920">Paula Regina Bernardes</option>
+            <option value="920">Romário Alcântara Campos</option>
+          </select>
+
+          <br>Profissional</label> <select class="form-control" name="txtProfissional">
+          <option value="001"> Andreza Bianca Moreira dos Santos</option>
+          <option value="920">Daniela de Paula Barros</option>
+          <option value="920">Eliane Aparecida Sande Vieira</option>
+          <option value="920">Elisângela Aparecida Santos de Oliveira </option>
+          <option value="920">Flavia Alves Duarte Alencar</option>
+          <option value="920">Gabriela Santos Pereira</option>
+          <option value="920">Júlia Gabriela dos Santos</option>
+          <option value="920">Midiã Marques Borges Santos</option>
+          <option value="920">Neiva Menezes</option>
+          <option value="920">Paula Regina Bernardes</option>
+          <option value="920">Romário Alcântara Campos</option>
+        </select>
+
+          <br> Setor <select class="form-control" name="txtSetor">
+          <option value="001">Habilidades Motoras</option>
+          <option value="001">Auto Cuidado</option>
+          <option value="001">Atendimento</option>
+          <option value="001">Administrativo</option>
+          <option value="001">Inteligencia</option>
+        </select>
+
+          <br> Função <select class="form-control" name="txtFunção">
+          <option value="001">Fisioterapeuta</option>
+          <option value="920">Nutrição</option>
+          <option value="920">Psicologia</option>
+          <option value="920">Psicopedagogo</option>
+          <option value="920">Recepcionista</option>
+          <option value="920">Auxiliar Administrativo</option>
+          <option value="920">Suporte Técnico</option>
+        </select>
+
+          <input type="button" value="Confirmar" onclick="cadPessoa(txtPaciente.value, txtProfissional.value, txtSetor.value, txtFunção.value)"  />
+          <div class="form-group">
+
+
+          </div>
+
+      </div>
+    </ul>
+  </nav>
+</html>

@@ -1,0 +1,142 @@
+nav#menu {
+  position: relative;
+
+}
+
+div#manha ul li {
+  color: white;
+  padding: 10px;
+  height: 45px;
+  list-style: none;
+  display: inline-block;
+  background-color: #888888;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  border-radius: 10px;
+
+}
+div#manha  a{
+  color: #ffffff;
+}
+div#tarde ul li{
+  color: white;
+  padding: 10px;
+  height: 45px;
+  list-style: none;
+  display: inline-block;
+  background-color: #888888;
+  position: absolute;
+  top: 10px;
+  left: 332px;
+  border-radius: 10px;
+}
+div#tarde  a{
+  color: #ffffff;
+}
+div#admManha ul li {
+  color: white;
+  padding: 10px;
+  height: 45px;
+  list-style: none;
+  display: inline-block;
+  background-color: #888888;
+  position: absolute;
+  top: 10px;
+  left: 405px;
+  border-radius: 10px;
+}
+div#admManha  a{
+  color: #ffffff;
+}
+div#admTarde ul li {
+  color: white;
+  padding: 10px;
+  height: 45px;
+  list-style: none;
+  display: inline-block;
+  background-color: #888888;
+  position: absolute;
+  top: 10px;
+  left: 535px;
+  border-radius: 10px;
+}
+div#admTarde  a{
+  color: #ffffff;
+}
+div#hSocias ul li {
+  color: white;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  background: cornflowerblue;
+  position: absolute;
+  top: 10px;
+  left: 657px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+div#hSocias  a{
+  color: #ffffff;
+}
+div#hMotoras ul li {
+  color: white;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  background: orange;
+  position: absolute;
+  top: 10px;
+  left: 813px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+div#hMotoras  a{
+  color: #ffffff;
+}
+div#hComu ul li {
+  color: white;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  background: darkmagenta;
+  position: absolute;
+  top: 10px;
+  left: 969px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+div#hComu  a{
+  color: #ffffff;
+}
+div#hPeda ul li {
+  color: white;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  background: blue;
+  position: absolute;
+  top: 10px;
+  left: 1141px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+div#hPeda  a{
+  color: #ffffff;
+}
+div#autoNutri  ul  li{
+  color: white;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  background: green;
+  position: absolute;
+  top: 10px;
+  left: 1304px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+div#autoNutri a{
+  color: white;
+}
+

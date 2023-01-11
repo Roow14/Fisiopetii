@@ -1,0 +1,56 @@
+nav#menu {
+  margin: 10px 10px 10px 1100px;
+}
+div#crianca {
+  margin: 10px 10px 10px -900px;
+}
+h3 {
+  margin: -100px 10px 10px -1000px;
+  background-color: white;
+  width: 150px;
+}
+.cabecalho {
+  margin: 10px 10px 10px -1000px;
+color: red;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.form-group  {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 20px;
+}
+.form-inline {
+ width: 1300px;
+  margin: 10px 10px 10px -1000px;
+
+}
+.table {
+  margin: 10px 10px 10px -1000px;
+  width: 1400px;
+  border: 1px solid #000000;
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+
+}
+.table th {
+  padding: 10px;
+  background: rgb(0, 0, 255,0.4);
+
+}
+.table tr{
+  font-size: 25px;
+  background: rgb(240, 240, 240,0.8);
+
+
+}
+.table td {
+  color: darkred;
+  padding: 7px;
+
+}
+
+

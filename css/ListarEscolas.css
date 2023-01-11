@@ -1,0 +1,57 @@
+nav#menu {
+  position: fixed;
+}
+
+
+h3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 100px;
+  font-size: 30px;
+
+}
+.btn-success {
+  width: 90px;
+
+}
+.btn-success:hover{
+  background: #f1f1f1;
+}
+div#conteudo {
+  position: absolute;
+  margin: 0px 10px 10px 310px;
+  color: #222222;
+  font-size: 20px;
+}
+.btn-default {
+  margin: 30px 10px 10px 10px;
+  background: #b82e24;
+color: #f1f1f1;
+  padding: 1px;
+
+}
+
+.btn-default:hover{
+  color: #5cb85c;
+}
+.btn-defaultt {
+  padding: 10px;
+  margin: 10px;
+  color: #f1f1f1;
+}
+.table {
+  border: 1px solid #222222;
+}
+.table td {
+  border: 1px solid #222222;
+  background: rgb(255, 165, 0, 0.4);
+
+}
+.table th {
+  background: #b82e24;
+  color: #f1f1f1;
+}
+.table td:hover {
+  background: rgb(0, 0, 255,0.3);
+  color: #f1f1f1;
+}

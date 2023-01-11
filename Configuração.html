@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>configuração</title>
+  <link rel="stylesheet" type="text/css" href="css/fisio.css">
+  <link rel="stylesheet" type="text/css" href="css/configuracao.css">
+
+
+  <style type="text/css">
+
+    body{
+      background-color: #b3d4fc;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+  </style>
+
+  <a href="http://localhost:63342/Fisiopeti.html/Fisiopeti.html">
+    <nav id="menu">
+
+      <img src="img/logof.png" width="70%">
+  </a>
+  <nav id="home">
+
+
+
+  </nav>
+  <ul>
+
+    <div class="wrapper">
+      <div class="lista">
+        <input type="checkbox" class="trigger-input" id="agenda">
+        <div class="trigger-wrapper">
+          <label for="agenda">
+            <li class="titulo">Agenda FP</li>
+          </label>
+
+          <li class="conteudo"><a href="agenda%20paciente.html">Agenda do Paciente</a> </li>
+          <li class="conteudo"><a href="agendao%20profissional.html">Agenda do Profissional</a> </li>
+          <li class="conteudo"><a href="agenda%20por%20categoria.html">Agenda por Categoria</a></li>
+          <li class="conteudo"><a href="agendabasedacrianca.html">Agenda base Paciente</a></li>
+          <li class="conteudo"><a href="agendabaseprofissional.html">Agenda base Profissional</a></li>
+          <li class="conteudo"><a href="CriarAgendaSemanal.html">criar agenda da Semana</a></li>
+
+        </div>
+      </div>
+
+      <div class="lista">
+        <input type="checkbox" class="trigger-input" id="profissional">
+        <div class="trigger-wrapper">
+          <label for="profissional">
+            <li class="titulo">Profissional</li>
+          </label>
+          <li class="conteudo">Listar Profissionais</li>
+          <li class="conteudo">Associar Categoria</li>
+          <li class="conteudo">Cadastrar Profissional</li>
+          <li class="conteudo">Importa Foto</li>
+          <li class="conteudo">Listar Foto</li>
+
+
+        </div>
+      </div>
+
+      <div class="lista">
+        <input type="checkbox" class="trigger-input" id="paciente">
+        <div class="trigger-wrapper">
+          <label for="paciente">
+            <li class="titulo">Paciente</li>
+          </label>
+          <li class="conteudo">Cadastrar Paciente</li>
+          <li class="conteudo">Listar Paciente</li>
+          <li class="conteudo">Listar Escolas</li>
+          <li class="conteudo">Importar Foto</li>
+          <li class="conteudo">Listar Fotos</li>
+
+        </div>
+      </div>
+
+      <div class="lista">
+        <input type="checkbox" class="trigger-input" id="medico">
+        <div class="trigger-wrapper">
+          <label for="medico">
+            <li class="titulo">Médico</li>
+          </label>
+          <li class="conteudo">Listar Médico</li>
+          <li class="conteudo">Cadastrar Médico</li>
+        </div>
+      </div>
+  </ul>
+
+
+  <form action="/fisiopeti/content/paciente/pesquisar-paciente.php" method="post">
+    <div class="search-box">
+      <input class="search-txt" type="text" name="" placeholder="Paciente" name="PesquisaPaciente">
+      <img src="img/lupa.png" class="btn">
+      <a class="search-bth" href="#"></a>
+    </div>
+  </form>
+
+  <form action="/fisiopeti/content/paciente/pesquisar-profissional.php" method="post">
+    <div class="search-box">
+      <input class="search-txt" type="text" name="" placeholder="Profissional" name="PesquisaProfissional">
+      <img src="img/lupa.png" class="btn">
+      <a class="search-bth" href="#"></a>
+    </div>
+    <nav id="demais">
+      <ul>
+        <li>Profissional FP+</li>
+        <li>Configuração</li>
+        <li>Ajuda</li>
+      </ul>
+    </nav>
+    </div>
+    </nav>
+
+    <div id="conteudo">
+
+      <h2>Configuração</h2>
+      <div class="row">
+        <div class="col-sm-1">
+          <h3>Horário</h3>
+          <p>Configuração do horário e período <a href="configurar-horas.php" class="btn btn-default">Configurar</a></p>
+
+          <!-- <h3>Período</h3>
+          <p>Configuração do período <a href="configurar-periodo.php" class="btn btn-default">Configurar</a></p> -->
+
+          <h3>Unidade</h3>
+          <p>Configuração da unidade <a href="configurar-unidade.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Função</h3>
+          <p>Configuração da função do profissional <a href="configurar-funcao.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Categoria</h3>
+          <p>Configuração da categoria do profissional <a href="configurar-categoria.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Diagnóstico</h3>
+          <p>Configuração do diagnóstico <a href="configurar-diagnostico.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Exame médico</h3>
+          <p>Configuração do exame médico <a href="configurar-exame.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Terapia</h3>
+          <p>Configuração da terapia <a href="configurar-terapia.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Estado</h3>
+          <p>Configuração do Estado <a href="configurar-estado.php" class="btn btn-default">Configurar</a></p>
+
+          <h3>Arquivos</h3>
+          <p>Listar arquivos importados <a href="configurar-arquivos-importados.php" class="btn btn-default">Confirmar</a></p>
+        </div>
+
+        <div class="col-sm-6">
+          <h3>Primeiro nome</h3>
+          <p>Obter o primeiro nome a partir de um nome completo dos <b>profissionais</b>. <a href="configurar-primeiro-nome-profissionais.php" class="btn btn-default">Próxima página</a></p>
+          <p>Obter o primeiro nome a partir de um nome completo dos <b>pacientes</b>. <a href="configurar-primeiro-nome-pacientes.php" class="btn btn-default">Próxima página</a></p>
+
+          <!-- <h3>Importar dados</h3>
+          <p>Importar nomes dos <b>profissionais</b> que estão em uma planilha excel para o banco de dados <a href="importar-profissionais.php" class="btn btn-default">Próxima página</a></p>
+          <p>Importar nomes dos <b>pacientes</b>. <a href="importar-pacientes.php" class="btn btn-default">Próxima página</a></p>
+          <p>Criar e adicionar o primeiro nome na tabela <b>paciente</b>. <a href="adicionar-nome-social-paciente.php" class="btn btn-default">Próxima página</a></p> -->
+
+          <!-- <h3>Importar atendimento</h3>
+          <p>Importar dados da planilha de atendimento. <a href="importar-atendimento.php" class="btn btn-default">Próxima página</a></p> -->
+
+          <h3>Agenda base do paciente</h3>
+          <p>Relatório completo da agenda base <a href="relatorio-agenda-base.php" class="btn btn-default">Continuar</a></p>
+          <p>Conferir se existe duplicidade de profissionais <a href="agenda-base-paciente-conferir-duplicidade.php" class="btn btn-default">Continuar</a></p>
+          <p>Verificar na tabela agenda_paciente_base, id_profissional 0<a href="verificar-agenda-base.php" class="btn btn-default">Continuar</a></p>
+          <p>Listar id_profissional = 0 <a href="apagar-profissional-zero.php" class="btn btn-default">Continuar</a></p>
+          <p>Corrigir os perídos ds terapeutas <a href="corrigir-periodo-terapeutas.php" class="btn btn-default">Continuar</a></p>
+
+
+          <h3>Comparar tabela profissional e tmp_profissional</h3>
+          <p><a href="comparar-tabelas-profissionais-tmp.php" class="btn btn-default">Continuar</a></p>
+
+
+
+          <!-- <h3>Associar período na tabela profissional</h3>
+          <p>Atualizar a tabela profissional associando período à hora. <a href="associar-periodo-a-hora.php" class="btn btn-default">Continuar</a></p> -->
+
+          <h3>Limpar preferência de horário duplicados</h3>
+          <p><a href="limpar-preferencia-horario-paciente.php" class="btn btn-default">Limpar</a></p>
+
+          <h3>Corrigir categoria</h3>
+          <!-- <p>Em paciente, adicionar demais períodos para manhã-tarde. <a href="adicionar-periodo-manha-ou-tarde.php" class="btn btn-default">Continuar</a></p> -->
+          <p>Copiar o profissional, categoria e unidade da tabela categoria_profissional para tabela categoria_profissional_tmp e organizar os períodos em colunas.<br>Criar uma coluna período manhã + tarde.<a href="adicionar-periodo-manha-tarde.php" class="btn btn-default">Continuar</a></p>
+          <p>Copiar os dados da coluna período manhã + tarde da tabela tmp para categoria_profissional. <a href="copiar-periodo-manha-tarde-para-tabela.php" class="btn btn-default">Continuar</a></p>
+          <p>Remover itens vazios na tabela categoria_profissional <a href="categoria-paciente-apagar-periodo-vazio.php" class="btn btn-default">Continuar</a></p>
+
+          <h3>Correção FP+</h3>
+          <p>Inserir nome do paciente na tabela FP <a href="inserir-nome-paciente-tabela-fp.php" class="Link">Avançar</a></p>
+          <p>Copiar o usuário e senha do profissional da tabela profissional para prog_profissional <a href="copiar-profissional-usuario-senha-para-prog.php" class="Link">Avançar</a></p>
+          <p>teste <a href="teste-1.php" class="Link">Avançar</a></p>
+
+          <h3>Pacientes duplicados</h3>
+          <p>Analisar pacientes duplicados <a href="listar-pacientes-duplicados-novo.php" class="Link">Avançar</a> </p>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+</html>

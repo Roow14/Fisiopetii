@@ -1,0 +1,18 @@
+nav#menu {
+ position: absolute;
+}
+div#guias {
+  color: white;
+}
+div#guias ul{
+  list-style: none;
+}
+div#guias li {
+  display: inline-block;
+  background-color: #555555;
+  padding: 10px;
+  margin: 10px;
+}
+div#guias ro {
+  background-color: #b3d4fc;
+}

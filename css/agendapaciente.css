@@ -1,0 +1,49 @@
+body {
+
+}
+
+nav#menu {
+  margin: 10px 10px 10px 1100px;
+}
+div#crianca {
+  margin: -150px 10px 10px -500px;
+
+}
+div#conteudo2 {
+  margin: -200px 10px 10px -1000px;
+  font-size: 25px
+}
+.table {
+  margin: 20px 10px 10px 10px;
+  border: 1px solid #000000;
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+
+}
+
+.table a{
+  text-decoration: none;
+
+}
+.table td {
+  border: 1px solid #000000;
+  background: rgb(240, 240, 240,0.5);
+}
+.Link:hover {
+  color: white;
+}
+.btn-default {
+  text-decoration: none;
+  margin: 20px 10px 10px 10px;
+}
+.btn-default:hover {
+  color: white;
+}
+.btn-defaultt {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
+}
+.btn-defaultt:hover {
+  color: firebrick;
+}

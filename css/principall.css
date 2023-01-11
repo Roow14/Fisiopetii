@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+/*menu*/
+.wrapper {
+  max-width: 400px;
+  margin: 50px 0px 40px 180px;
+ display: flex;
+  list-style: none;
+
+  }
+nav {
+  background:rgba(0,0,0,0.4);
+
+}
+.titulo {
+  cursor: pointer;
+  padding: 10px;
+  margin: -120px 0px 0px 30px;
+  font-size: 25px;
+  width: 150px;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.titulo:hover{
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+.conteudo {
+  padding: 3px;
+  margin: 10px 0px 0px 20px;
+  display: none;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000000;
+
+
+
+}
+.conteudo a {
+  text-decoration: none;
+  color: white;
+}
+.conteudo:hover{
+  background: rgb(255, 0, 0,0.4);
+  text-shadow: 2px 2px 2px #000000;
+  box-shadow: 1px 1px 10px  #000000;
+  border-radius: 10px;
+
+}
+
+/*icone +*/
+.titulo::after {
+  content: '+';
+  float: right;
+  transition: transform .3s ease;
+}
+.trigger-input {
+  display: none;
+}
+.trigger-input:checked + .trigger-wrapper .conteudo::after {
+  transform: rotate(54deg);
+}
+.trigger-input:checked + .trigger-wrapper .conteudo {
+  display: block;
+}
+
+.search-txt {
+  font-size: 14px;
+  margin: 10px 0px 16px -70px;
+}
+
+.search-box {
+  margin: -100px 0px 6px 1100px;
+  
+
+
+
+}
+.btn {
+  background-color: darkred;
+  width: 23px;
+  padding: 2px;
+  margin: 10px 0px -6px 0px;
+ cursor: pointer;
+  border-radius: 10px;
+}
+
+div#agenda a{
+  background: rgba(0,0,0,0.7);
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+text-decoration: none;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 10px  #000000;
+}
+div#agenda a:hover{
+  background: rgba(0,0,0,0.3);
+
+}
+div#agenda li {
+  list-style: none;
+  display: inline-block;
+
+
+}
+div#agenda ul {
+position: relative;
+  top: 130px;
+  left: 200px;
+  font-size: 40px;
+width: 1200px;
+}
+div#demais {
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 1250px;
+}
+div#demais ul{
+  list-style: none;
+}
+div#demais li {
+  padding: 10px;
+  font-size: 20px;
+
+}
+div#demais li:hover {
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+div#demais  a  {
+ color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  left: -25px;
+}
+

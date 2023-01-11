@@ -1,0 +1,36 @@
+nav#menu {
+  position: fixed;
+}
+
+
+h3 {
+  background-color: #f1f1f1;
+
+  font-size: 30px;
+
+}
+div#conteudo {
+  position: absolute;
+  margin: 10px 10px 10px 350px;
+  color: #222222;
+  font-size: 15px;
+}
+.table th {
+  font-size: 30px;
+  padding: 10px;
+
+
+}
+.table td {
+  background-color: #f1f1f1;
+  border: 1px solid #5cb85c;
+  width: 110px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+.table td:hover {
+  background: rgba(255, 255, 0, 0.3);
+
+}
